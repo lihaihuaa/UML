@@ -1,9 +1,107 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="UM8l7yHbe_MipqAq1FQx">
-    <mxGraphModel>
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-4" edge="1" parent="1" source="zjuEbOu9J53cn_UZPVnN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <mxPoint x="369.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="客户" vertex="1">
+          <mxGeometry height="60" width="40" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-13" edge="1" parent="1" source="zjuEbOu9J53cn_UZPVnN-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="zjuEbOu9J53cn_UZPVnN-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="平台" vertex="1">
+          <mxGeometry height="520" width="100" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-15" edge="1" parent="1" source="zjuEbOu9J53cn_UZPVnN-3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="zjuEbOu9J53cn_UZPVnN-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="企微" vertex="1">
+          <mxGeometry height="520" width="100" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.客服添加联系人" vertex="1">
+          <mxGeometry height="30" width="100" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-8" edge="1" parent="1" source="zjuEbOu9J53cn_UZPVnN-3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="zjuEbOu9J53cn_UZPVnN-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.企微回调通知(需要配置)" vertex="1">
+          <mxGeometry height="30" width="90" x="240" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.1.获取外部客户详情信息" vertex="1">
+          <mxGeometry height="30" width="150" x="210" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-17" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="320" />
+            </Array>
+            <mxPoint x="209.5" y="320" as="sourcePoint" />
+            <mxPoint x="209.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.2.1.企业判断是否已经存在该企业，如果不存在，则新建企业" vertex="1">
+          <mxGeometry height="30" width="130" x="210" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.2.3.联系人判断是否已经存在该联系人，如果不存在，则新建联系人&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="230" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-21" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250.5" y="380" />
+            </Array>
+            <mxPoint x="210" y="380" as="sourcePoint" />
+            <mxPoint x="210" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.2.2.是否存在手机号码，如果不存在，虚拟一个手机号码：corp_id+external_userid使用sha256Hex截取9位xxx，再拼接99+xxx，需要校验，如果已存在则需要+UUID重新哈希截取9位" vertex="1">
+          <mxGeometry height="30" width="130" x="65" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-27" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="350" />
+            </Array>
+            <mxPoint x="210" y="350" as="sourcePoint" />
+            <mxPoint x="210" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-28" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250.5" y="430" />
+            </Array>
+            <mxPoint x="210" y="430" as="sourcePoint" />
+            <mxPoint x="210" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zjuEbOu9J53cn_UZPVnN-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.3.保存主体,客服,联系人关联关系" vertex="1">
+          <mxGeometry height="30" width="110" x="230" y="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
