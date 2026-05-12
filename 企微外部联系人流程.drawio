@@ -125,9 +125,6 @@
             <mxPoint x="849.5" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zjuEbOu9J53cn_UZPVnN-60" edge="1" parent="1" source="zjuEbOu9J53cn_UZPVnN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zjuEbOu9J53cn_UZPVnN-38" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="zjuEbOu9J53cn_UZPVnN-33" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="客服/客户" vertex="1">
           <mxGeometry height="60" width="40" x="520" y="80" as="geometry" />
         </mxCell>
